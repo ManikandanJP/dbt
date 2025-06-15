@@ -5,7 +5,6 @@
     This will override configurations stated in dbt_project.yml
 
     Try changing "table" to "view" below
-    mani
 */
 
 {{ config(materialized='table') }}
