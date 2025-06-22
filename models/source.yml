@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: LAB # this is the source_name
+    database: SALES_DB
+    schema: RAW_SRC
+
+    tables:
+      - name: customers # this is the table_name
+      - name: orders # this is the table_name
+      - name: order_items
+      - name: payments
+      - name: products
